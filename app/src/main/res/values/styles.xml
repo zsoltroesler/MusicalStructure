@@ -1,0 +1,107 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/primary_color</item>
+        <item name="colorPrimaryDark">@color/primary_dark_color</item>
+    </style>
+
+    <!-- Style for a category of main screen -->
+    <style name="categoryStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/list_item_height</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">16dp</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+        <item name="android:background">?android:attr/selectableItemBackground</item>
+    </style>
+
+    <!-- Style for cover photo of main screen -->
+    <style name="coverPhotoStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">@dimen/cover_photo_height</item>
+        <item name="android:scaleType">centerCrop</item>
+        <item name="android:src">@drawable/cover_photo</item>
+    </style>
+
+    <!-- Style for activity_subscription button of the main screen -->
+    <style name="subscriptionStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_marginTop">20dp</item>
+        <item name="android:layout_marginBottom">20dp</item>
+    </style>
+
+    <!-- Style for searching -->
+    <style name="searchStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:hint">Search</item>
+        <item name="android:inputType">textCapWords</item>
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+
+    <!-- Style for main activity description -->
+    <style name="mainActivityStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:layout_marginBottom">10dp</item>
+        <item name="android:alpha">0.5</item>
+        <item name="android:background">@android:color/background_light</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+
+    <!-- General style for activity description -->
+    <style name="descriptionStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">30dp</item>
+        <item name="android:alpha">0.5</item>
+        <item name="android:background">@android:color/background_light</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+
+    <!-- General style for list item -->
+    <style name="listItem">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textAppearance">?android:textAppearanceLarge</item>
+        <item name="android:textColor">@color/colorIcon</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!-- Style for list play icon -->
+    <style name="listIcon">
+        <item name="android:layout_width">@dimen/icon_size</item>
+        <item name="android:layout_height">@dimen/icon_size</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:src">@drawable/ic_play_circle_filled_black_48dp</item>
+    </style>
+
+    <!-- General style for music player icons -->
+    <style name="playerIcon">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:alpha">0.4</item>
+        <item name="android:background">@color/primary_dark_color</item>
+    </style>
+
+    <!-- Style for activity_subscription option buttons -->
+    <style name="monthlyYearlyButton">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">@dimen/activity_horizontal_margin</item>
+        <item name="android:padding">@dimen/button_padding</item>
+    </style>
+
+</resources>

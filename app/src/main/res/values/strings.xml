@@ -1,0 +1,77 @@
+<resources>
+    <string name="app_name">My Musical Structure</string>
+
+    <string name="category_song">Songs</string>
+
+    <string name="category_album">Albums</string>
+
+    <string name="category_playlist">Playlists</string>
+
+    <string name="category_artist">Artists</string>
+
+    <string name="subscription">Subscription</string>
+
+    <string name="mainDescription">Main Activity - the home screen of my app. It navigates to other subscreens
+        like artists, albums, songs or stored playlists. At the bottom the subscription button provides options for
+        the payment.</string>
+
+    <string name="subscriptionDescription">Subscription Activity - the purpose of this activity is to manage
+        the subscription through the Play Console, or by using the Google Play Developer API. The Subscriptions
+        and In-App Purchases API would let the user manage in-app purchases and subscriptions. There would be
+        2 types of subscriptions, monthly and yearly. So far the buttons only navigate the user to Google Play
+        platform other actitivies are not implemented yet.</string>
+
+    <string name="playlistDescription">Playlist Activity - it would offer the user to manage his playlists.
+        Search function would work within the stored playlists. The music player would be
+        implemented by MediaPlayer class.</string>
+
+    <string name="artistDescription">Artist Activity - it would offer a selection of artists with all albums
+        and songs stored on device. Search function would work among artists. The music player
+        would be implemented by MediaPlayer class.</string>
+
+    <string name="albumDescription">Album Activity - it would offer a selection of all albums stored on device.
+        Search function would work among albums. The music player would be implemented by
+        MediaPlayer class.</string>
+
+    <string name="songDescription">Song Activity - it would offer a list of all songs stored on device
+        in alphabetic order. Search function would work among songs. The music player would be
+        implemented by MediaPlayer class.</string>
+
+    <string name="recentlyPlayed">Recently played</string>
+
+    <string name="favorites">Favorites</string>
+
+    <string name="fm4">FM4 hits</string>
+
+    <string name="ParovStelar">Parov Stelar</string>
+
+    <string name="Bonobo">Bonobo</string>
+
+    <string name="ThieveryCorporation">Thievery Corporation</string>
+
+    <string name="newPlaylist">+ new playlist</string>
+
+    <string name="bonobo_song1">Bonobo-Album-Song 1</string>
+
+    <string name="bonobo_song2">Bonobo-Album-Song 2</string>
+
+    <string name="bonobo_song3">Bonobo-Album-Song 3</string>
+
+    <string name="parovStelar_song1">Parov Stelar-Album-Song 1</string>
+
+    <string name="parovStelar_song2">Parov Stelar-Album-Song 2</string>
+
+    <string name="parovStelar_song3">Parov Stelar-Album-Song 3</string>
+
+    <string name="thieveryCorporation_song1">Thievery Corporation-Album-Song 1</string>
+
+    <string name="thieveryCorporation_song2">Thievery Corporation-Album-Song 2</string>
+
+    <string name="thieveryCorporation_song3">Thievery Corporation-Album-Song 3</string>
+
+    <string name="monthly_subscript">Monthly 6.99 Eur</string>
+
+    <string name="yearly_subscript">Yearly 69.99 Eur</string>
+
+</resources>
+

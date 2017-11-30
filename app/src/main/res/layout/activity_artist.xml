@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_v2"
+    android:orientation="vertical"
+    android:scaleType="centerCrop"
+    tools:context="com.example.android.musicalstructure.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:alpha="0.4"
+            android:background="@color/category_blue"
+            android:padding="@dimen/header_padding">
+
+             <ImageView
+                android:layout_width="@dimen/header_icon_size"
+                android:layout_height="@dimen/header_icon_size"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                android:src="@drawable/ic_search_black_48dp" />
+
+            <EditText
+                style="@style/searchStyle" />
+
+        </LinearLayout>
+
+        <TextView
+            style="@style/descriptionStyle"
+            android:text="@string/artistDescription"/>
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2">
+
+        <LinearLayout
+            android:id="@+id/artistToAlbum"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/list_margin"
+                android:layout_marginRight="@dimen/list_margin">
+
+               <ImageView
+                   android:layout_width="@dimen/artist_pic_size"
+                   android:layout_height="@dimen/artist_pic_size"
+                   android:src="@drawable/bonobo"/>
+
+                <TextView
+                    style="@style/listItem"
+                    android:text="@string/Bonobo"
+                    android:layout_alignParentBottom="true"/>
+
+                <ImageView
+                    style="@style/listIcon"
+                    android:layout_centerInParent="true"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/list_margin"
+                android:layout_marginRight="@dimen/list_margin">
+
+                <ImageView
+                    android:layout_width="@dimen/artist_pic_size"
+                    android:layout_height="@dimen/artist_pic_size"
+                    android:src="@drawable/parov_stelar"/>
+
+                <TextView
+                    style="@style/listItem"
+                    android:text="@string/ParovStelar"
+                    android:layout_alignParentBottom="true"/>
+
+                <ImageView
+                    style="@style/listIcon"
+                    android:layout_centerInParent="true"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/list_margin"
+                android:layout_marginRight="@dimen/list_margin">
+
+                <ImageView
+                    android:layout_width="@dimen/artist_pic_size"
+                    android:layout_height="@dimen/artist_pic_size"
+                    android:src="@drawable/thievery_corporation"/>
+
+                <TextView
+                    style="@style/listItem"
+                    android:text="@string/ThieveryCorporation"
+                    android:layout_alignParentBottom="true"/>
+
+                <ImageView
+                    style="@style/listIcon"
+                    android:layout_centerInParent="true"/>
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:paddingBottom="@dimen/player_padding"
+        android:paddingTop="@dimen/player_padding">
+
+        <ImageView
+            android:id="@+id/image_skip_previous"
+            style="@style/playerIcon"
+            android:src="@drawable/ic_skip_previous_black_48dp"/>
+
+        <ImageView
+            android:id="@+id/image_pause"
+            style="@style/playerIcon"
+            android:src="@drawable/ic_pause_circle_filled_black_48dp"/>
+
+        <ImageView
+            android:id="@+id/image_play"
+            style="@style/playerIcon"
+            android:src="@drawable/ic_play_circle_filled_black_48dp"/>
+
+        <ImageView
+            android:id="@+id/image_skip_next"
+            style="@style/playerIcon"
+            android:src="@drawable/ic_skip_next_black_48dp"/>
+
+    </LinearLayout>
+
+</LinearLayout>

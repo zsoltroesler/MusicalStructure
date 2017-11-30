@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary color of the app (shown in the app bar) -->
+    <color name="primary_color">#10100f</color>
+
+    <color name="primary_dark_color">#000000</color>
+
+
+    <color name="tan_background">#FFF7DA</color>
+
+    <color name="category_orange">#fcaf52</color>
+
+
+    <color name="category_blue">#5df2dc</color>
+
+    <color name="colorIcon">#E0E0E0</color>
+</resources>

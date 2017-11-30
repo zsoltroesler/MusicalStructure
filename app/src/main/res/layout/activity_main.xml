@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/tan_background"
+    tools:context="com.example.android.musicalstructure.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            style="@style/coverPhotoStyle" />
+
+        <TextView
+            style="@style/mainActivityStyle"
+            android:text="@string/mainDescription"/>
+
+        <!-- Playlist category -->
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/category_orange">
+
+            <TextView
+                android:id="@+id/playlist"
+                style="@style/categoryStyle"
+                android:text="@string/category_playlist" />
+        </FrameLayout>
+
+        <!-- Artist category -->
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/category_blue">
+
+            <TextView
+                android:id="@+id/artist"
+                style="@style/categoryStyle"
+                android:text="@string/category_artist" />
+        </FrameLayout>
+
+        <!-- Album category -->
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/category_orange">
+
+            <TextView
+                android:id="@+id/album"
+                style="@style/categoryStyle"
+                android:text="@string/category_album" />
+        </FrameLayout>
+
+        <!-- Song category -->
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/category_blue">
+
+            <TextView
+                android:id="@+id/song"
+                style="@style/categoryStyle"
+                android:text="@string/category_song" />
+        </FrameLayout>
+
+        <Button
+            android:id="@+id/subscription"
+            style="@style/subscriptionStyle"
+            android:text="@string/subscription" />
+
+    </LinearLayout>
+
+</ScrollView>
